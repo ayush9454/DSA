@@ -2,10 +2,24 @@
 using namespace std;
 
 int main(){
-    for (int row=0;row<4;row++){
-        for(int column=0;column<4;column++){
-            cout << "* ";
+    //pattern 1
+    int rowlen,collen;
+
+    cin>> rowlen;
+    cin>> collen;
+    for(int row=0; row<rowlen;row++){
+        if(row==0 || row == rowlen-1){
+            for(int col =0;col<collen;col++){
+                cout<<"* ";
+            }
         }
-        cout<<endl;
+        else{
+            cout<<"* ";
+            for (int i=0; i<collen-2;i++){
+                cout<<"  ";
+            }
+            cout<<"*";
+        }
+    cout<< endl;
     }
 }
