@@ -14,6 +14,7 @@ int main(){
     //1 byte= 8 bits
     //signed datatype = [-2^(n-1) --> 2^(n-1)-1]
     //unsigned int = [0 --> 2^(n)-1]
+    //for negative the most significant digit is 0
 
     bool b = false ;
     cout<<"\nEntered "<< b;
