@@ -35,18 +35,4 @@ int main(){
     //     cout << endl;
     // }
 
-    //Full pyramid
-    int n;
-    cout<< "Enter number of rows you want ";
-    cin >> n;
-    for(int i=0;i<n;i++){
-        cout<<" ";
-        for(int j=0;j<2*(i+1);j++){
-            cout<< "* ";
-        }
-        cout << endl;
-    }
-    
-
-
 }
