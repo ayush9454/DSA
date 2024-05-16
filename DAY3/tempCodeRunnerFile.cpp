@@ -1,5 +1,4 @@
-bool a= true;
-    // bool b= false;
-
-    // cout<<~a<<endl;
-    // cout<<~b;
+//left shift --> << (Multipies by 2^n)
+//     int a= 12;
+//     a= a<<3;
+//     cout<<a;
