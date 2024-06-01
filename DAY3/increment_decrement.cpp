@@ -8,5 +8,5 @@ int main(){
     // cout<<a;
     // cout<<a++<<endl ;//post-increment(original value remains same and increases value in the next line)
     // cout<<a;
-    cout<<(a++)*(a++);
+    cout<<(++a)*(++a);
 }
