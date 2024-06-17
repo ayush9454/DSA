@@ -11,7 +11,7 @@ int main(){
     // int ans=sizeof(arr)/sizeof(int);
     // cout<<ans<<endl;
     arr.push_back(5);
-    arr.push_back(10);
+    arr.push_back=(10);
     for(int i=0;i<arr.size();i++){
         cout<<arr[i]<<' ';
     }
